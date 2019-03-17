@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/second_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="Convolutional Neural Network\nVoice Activity Detector"/>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/mainLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_margin="5dp">-->
+        <!--<TextView-->
+            <!--android:id="@+id/blanktext"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Output"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/classification"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Classification"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/processingTime"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Processing Time"/>-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/AppDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/second_title"
+        android:layout_above="@+id/classificationSection">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/utd_emblem_solid_flame"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Signal and Image Processing Lab\nUniversity of Texas at Dallas"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/classificationSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/settingsLayout"
+        android:orientation="vertical"
+        android:layout_margin="5sp">
+        <TextView
+            android:id="@+id/noiseLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noise"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/speechLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speech + Noise"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/settingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/buttonLayout"
+        android:padding="5dp">
+        <TextView
+        android:id="@+id/processingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frame Processing Time: "
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:padding="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1.0"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="GUI Update Rate: 100 ms"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"/>
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:progress="0"
+                android:max="8"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1.0"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Store Audio and CNN Labels"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:text="Start"
+                android:onClick="buttonStartClick"
+                android:background="@android:color/holo_green_light"/>
+            <Button
+                android:id="@+id/buttonStop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:text="Stop"
+                android:onClick="buttonStopClick"
+                android:background="@android:color/holo_red_light"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

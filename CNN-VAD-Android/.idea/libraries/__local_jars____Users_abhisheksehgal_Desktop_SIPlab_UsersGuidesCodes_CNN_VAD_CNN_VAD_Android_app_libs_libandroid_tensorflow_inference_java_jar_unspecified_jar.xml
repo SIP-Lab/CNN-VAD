@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/libs/libandroid_tensorflow_inference_java.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/libandroid_tensorflow_inference_java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

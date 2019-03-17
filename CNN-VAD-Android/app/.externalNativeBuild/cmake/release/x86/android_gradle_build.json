@@ -1,0 +1,78 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/abhisheksehgal/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"SuperpoweredExample-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "SuperpoweredExample",
+			"buildCommand" : "/Users/abhisheksehgal/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86 --target SuperpoweredExample",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/platforms/android-16/arch-x86  -DSuperpoweredExample_EXPORTS -I/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered -isystem /Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/FrequencyDomain.cpp",
+					"workingDirectory" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/platforms/android-16/arch-x86 -DSuperpoweredExample_EXPORTS -I/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/FIRFilter.c",
+					"workingDirectory" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/platforms/android-16/arch-x86 -DSuperpoweredExample_EXPORTS -I/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/MelSpectrogram.c",
+					"workingDirectory" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/platforms/android-16/arch-x86 -DSuperpoweredExample_EXPORTS -I/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/Timer.c",
+					"workingDirectory" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/platforms/android-16/arch-x86 -DSuperpoweredExample_EXPORTS -I/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/Transforms.c",
+					"workingDirectory" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/platforms/android-16/arch-x86 -DSuperpoweredExample_EXPORTS -I/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/audioProcessing.c",
+					"workingDirectory" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/platforms/android-16/arch-x86  -DSuperpoweredExample_EXPORTS -I/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered -isystem /Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
+					"workingDirectory" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/build/intermediates/cmake/release/obj/x86/libSuperpoweredExample.so",
+			"toolchain" : "14085363371666459439"
+		}
+	},
+	"toolchains" : 
+	{
+		"14085363371666459439" : 
+		{
+			"cCompilerExecutable" : "/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

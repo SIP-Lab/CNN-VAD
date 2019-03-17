@@ -1,0 +1,11 @@
+# ninja log v5
+0	108	0	CMakeFiles/SuperpoweredExample.dir/FIRFilter.c.o	653d3c39336ab916
+2	109	0	CMakeFiles/SuperpoweredExample.dir/audioProcessing.c.o	9ae919bdfe096d6
+1	111	0	CMakeFiles/SuperpoweredExample.dir/Timer.c.o	804d77f054ec72f5
+2	112	0	CMakeFiles/SuperpoweredExample.dir/Transforms.c.o	3ff73ee0c2e851ce
+1	112	0	CMakeFiles/SuperpoweredExample.dir/MelSpectrogram.c.o	debfb9a9aa7df87a
+3	144	0	CMakeFiles/SuperpoweredExample.dir/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o	e98c9a871684d686
+1	299	0	CMakeFiles/SuperpoweredExample.dir/FrequencyDomain.cpp.o	17e95147602d9793
+300	389	0	/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/build/intermediates/cmake/debug/obj/x86/libSuperpoweredExample.so	84399dcb88ae363b
+2	164	0	CMakeFiles/SuperpoweredExample.dir/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o	e98c9a871684d686
+164	269	0	/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/build/intermediates/cmake/debug/obj/x86/libSuperpoweredExample.so	84399dcb88ae363b

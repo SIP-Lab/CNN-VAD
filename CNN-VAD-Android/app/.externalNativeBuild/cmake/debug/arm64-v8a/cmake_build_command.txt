@@ -1,0 +1,21 @@
+Executable : /Users/abhisheksehgal/Library/Android/sdk/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/src/main/jni
+-B/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/abhisheksehgal/Desktop/SIPlab-UsersGuidesCodes/CNN-VAD/CNN-VAD-Android/app/build/intermediates/cmake/debug/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=/Users/abhisheksehgal/Library/Android/sdk/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/abhisheksehgal/Desktop/Test/ndk/android-ndk-r14b/build/cmake/android.toolchain.cmake
+-DANDROID_PLATFORM=android-21
+-DCMAKE_C_FLAGS=-O2 -fsigned-char
+-DCMAKE_CXX_FLAGS=-fsigned-char -I/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered
+-DANDROID_PLATFORM=android-16
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_ARM_NEON=TRUE
+-DANDROID_STL=gnustl_static
+-DPATH_TO_SUPERPOWERED:STRING=/Users/abhisheksehgal/Desktop/Test/Low-Latency-Android-Audio-iOS-Audio-Engine/Superpowered
+jvmArgs : 
+
