@@ -20,3 +20,10 @@ All material related to our paper is available via the following links:
 ## Getting Started
 
 A [User's Guide](Users-Guide-CNN-VAD.pdf) is provided with this project which provides all the description required for training the model and running it on Android and iOS Smartphones.
+
+## License and Citation
+The codes are licensed under MIT license.
+
+For any utilization of the code content of this repository, the following paper needs to be cited by the user:
+
+- A. Sehgal, and N. Kehtarnavaz, "A Convolutional Neural Network Smartphone App for Real-Time Voice Activity Detection", IEEE Access, 6, pp.9017-9026., 2018.
